@@ -11,9 +11,9 @@
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-int frequency = 10; // 30 for 60 fps
-int bstring = 170;
-int I [3] = {150, 0, 0};
+int frequency = 15; // 30 for 60 fps
+int bstring = 181;
+int I [3] = {0, 255, 0};
 
 void setup()
 {
